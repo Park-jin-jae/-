@@ -15,7 +15,7 @@ for i in range(N):
         if len(stack)==0:
             print(-1)
         else:
-            print(stack.pop())
+            print(stack.pop()) # pop이 리스트 마지막 내용물을꺼내고 나머지 숫자 출력
     elif order=="size":
         print(len(stack))
 
@@ -28,4 +28,4 @@ for i in range(N):
         if len(stack)==0:
             print(-1)
         else:
-            print(stack[-1])
+            print(stack[-1]) # 맨위에 값만 출력 == 맨 마지막 값 출력
