@@ -1,0 +1,9 @@
+#하도 오랜만에 해서 기억이 가물가물했지만 10분 클리어
+
+N=int(input())
+
+for i in range(N):
+    word=list(input().split())
+    for j in word:
+        print(j[::-1])
+        
